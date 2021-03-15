@@ -1,0 +1,31 @@
+:root {
+    --color-background-b1:rgb(245, 85, 112);
+    --color-background-b2:rgb(188, 69, 235);
+    --color-background-b3:rgb(85, 104, 245);
+    --color-background-b4:rgb(85, 240, 245);
+    --color-background-b5:rgb(85, 245, 98);
+    --color-background-b6:rgb(210, 245, 85);
+    --color-background-b7:rgb(245, 85, 85);
+
+}
+
+body {
+    background-color: rgb(13,5,3);
+}
+
+button {
+    height: 10px;
+    width: 500px;
+}
+
+.ball-line {
+    background-color: green;
+}
+
+.ball-line span {
+    margin-left: 8.7%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
